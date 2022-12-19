@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8; 
+}
+
+.links, a {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 100px 20px 100px;
+}
+
+
+.hero-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    align-self: center;
+   
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    font-weight: bold;
+    width: 130px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.grid-img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    border: 4px solid #3882F6;
+}
+
+.img-text {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+
+
