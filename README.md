@@ -8,3 +8,6 @@ Demonstrated skills:
   * Flexbox
 
 [Link to assignment page](https://www.theodinproject.com/lessons/foundations-landing-page)
+
+
+Images sourced from [undraw.com](https://www.theodinproject.com/lessons/foundations-landing-page)
