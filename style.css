@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    flex-basis: 1200px;
 }
 
 .logo {
@@ -97,7 +97,6 @@ img {
 
 .info-header {
     display: flex;
-    align-items: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -158,5 +157,58 @@ p.citation-text {
    font-size: 30px;
 }
 
+.CTA-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
 
+.CTA-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 1200px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
 
+.CTA-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.CTA-small-text {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.CTA-button {
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    width: 130px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
